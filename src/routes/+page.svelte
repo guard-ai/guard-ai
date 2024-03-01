@@ -28,7 +28,7 @@
 		</div>
 
 		<div class="mt-12 flex h-full w-full flex-col gap-4 p-8">
-			<h1 use:cascade={{ interval: 30 }} class="text-6xl">Never Compromise Your Safety</h1>
+			<h1 use:cascade={{ interval: 30 }} class="text-6xl">Never Compromise Your Safety Again</h1>
 
 			{#if ready}
 				<div class="flex h-full w-full flex-row items-center justify-between">
