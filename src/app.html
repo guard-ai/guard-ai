@@ -1,12 +1,36 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		%sveltekit.head%
-	</head>
-	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents">%sveltekit.body%</div>
-	</body>
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" href="%sveltekit.assets%/favicon.ico" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<title>Guard AI</title>
+	<meta name="og:title" property="og:title" content="Guard AI" />
+	<meta name="og:site_name" property="og:site_name" content="Gurad AI">
+
+	<meta name="description" property="description"
+		content="Never compromise your safety with Guard AI, the real-time alert system that keeps you and others safe. Guard AI uses real-time notifications by scanning first responder radio frequencies and immediately alerts you" />
+	<meta name="og:description" property="og:description"
+		content="Never compromise your safety with Guard AI, the real-time alert system that keeps you and others safe. Guard AI uses real-time notifications by scanning first responder radio frequencies and immediately alerts you" />
+
+	<link rel="canonical" href="https://guard-ai.github.io" />
+	<meta name="og:url" property="og:url" content="https://guard-ai.github.io" />
+	<meta name="og:image" property="og:image" content="https://guard-ai.github.io/logo.png" />
+	<meta name="og:see_also" property="og:see_also" content="https://guard-ai.github.io/logo.png">
+
+	<meta name="keywords" content="guard,ai,protection,alerts,notifications,police,radar,scanner,radio,frequency" />
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+	%sveltekit.head%
+</head>
+
+<body data-sveltekit-preload-data="hover" style="width: 100vw; height: 100vh;">
+	<div style="display: contents; width: 100%; height: 100%;">%sveltekit.body%</div>
+</body>
+
 </html>
